@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.1.6
+ENV VERSION=1.1.7
 
 RUN gem install akitaonrails-locarails --version ${VERSION} --no-format-exec
 
